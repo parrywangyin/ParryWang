@@ -1,0 +1,35 @@
+---
+sw1:
+    hostname: 192.168.2.11
+    username: python
+    password: '123'
+    platform: ios
+    groups:
+        - cisco_group1
+    data:
+        building: '1'
+        level: '1'
+sw2:
+    hostname: 192.168.2.12
+    platform: ios
+    groups:
+        - cisco_group1
+    data:
+        building: '1'
+        level: '2'
+sw3:
+    hostname: 192.168.2.13
+    platform: ios
+    groups:
+        - cisco_group2
+    data:
+        builiding: '2'
+        level: '1'
+sw4:
+    hostname: 192.168.2.14
+    platform: ios
+    groups:
+        - cisco_group2
+    data:
+        building: '2'
+        level: '2'
