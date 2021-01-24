@@ -1,0 +1,11 @@
+print('---\n')
+
+for i in range(1,101)
+    print('sw' + str(i) + ':')
+    print("    hostname: 192.168.2." + str(i))
+    print("    platform: 'ios'")
+    print("    username: python")
+    print("    password: '123'")
+    print("    groups:")
+    print("        - cisco_group")
+    print("\n")
