@@ -1,0 +1,443 @@
+2021-01-25 14:48:18,526 -  nornir.core -     INFO -        run() - Running task 'load_data' with args {} on 2 hosts
+2021-02-23 13:20:28,228 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport'} on 4 hosts
+2021-02-23 13:35:09,571 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-02-23 13:35:55,969 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-02-23 13:36:44,937 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 14:01:32,445 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:02:02,385 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:07:24,054 -  nornir.core -     INFO -        run() - Running task 'get_facts' with args {} on 4 hosts
+2021-03-21 15:07:24,054 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:07:24,056 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:07:24,058 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:07:24,060 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:07:29,238 - nornir.core.task -    ERROR -      start() - Host 'sw2': task 'get_facts' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "nornir11.py", line 7, in get_facts
+    task.host['facts'] = output.result
+AttributeError: 'AggregatedResult' object has no attribute 'result'
+
+2021-03-21 15:07:29,328 - nornir.core.task -    ERROR -      start() - Host 'sw3': task 'get_facts' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "nornir11.py", line 7, in get_facts
+    task.host['facts'] = output.result
+AttributeError: 'AggregatedResult' object has no attribute 'result'
+
+2021-03-21 15:07:29,414 - nornir.core.task -    ERROR -      start() - Host 'sw4': task 'get_facts' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "nornir11.py", line 7, in get_facts
+    task.host['facts'] = output.result
+AttributeError: 'AggregatedResult' object has no attribute 'result'
+
+2021-03-21 15:07:29,617 - nornir.core.task -    ERROR -      start() - Host 'sw1': task 'get_facts' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "nornir11.py", line 7, in get_facts
+    task.host['facts'] = output.result
+AttributeError: 'AggregatedResult' object has no attribute 'result'
+
+2021-03-21 15:08:25,738 -  nornir.core -     INFO -        run() - Running task 'get_facts' with args {} on 4 hosts
+2021-03-21 15:08:25,739 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:08:25,740 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:08:25,742 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:08:25,744 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:09:56,976 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:11:19,986 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:12:56,067 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:16:14,534 -  nornir.core -     INFO -        run() - Running task 'get_facts' with args {} on 4 hosts
+2021-03-21 15:16:14,534 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:16:14,535 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:16:14,537 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:16:14,539 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:17:49,710 -  nornir.core -     INFO -        run() - Running task 'get_facts' with args {} on 4 hosts
+2021-03-21 15:17:49,710 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:17:49,711 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:17:49,712 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:17:49,714 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:23:38,183 -  nornir.core -     INFO -        run() - Running task 'get_facts' with args {} on 4 hosts
+2021-03-21 15:23:38,183 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:23:38,184 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:23:38,186 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:23:38,188 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:45:36,715 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:46:24,564 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-21 15:48:04,269 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-22 12:49:19,820 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-22 13:25:55,493 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-22 13:32:28,919 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-22 14:24:53,145 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-22 14:32:11,140 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-22 14:34:30,779 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-22 15:24:54,308 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-22 15:25:27,791 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh interface switchport', 'use_textfsm': True} on 4 hosts
+2021-03-24 14:17:03,785 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 14:17:50,222 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 14:20:50,391 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 14:21:31,393 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 14:22:51,479 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 14:33:51,958 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 14:35:10,611 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 14:52:55,494 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 14:52:55,497 - nornir.core.task -    ERROR -      start() - Host 'sw1': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 12, in hello_world
+    task.host.pasword,
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 314, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'pasword'
+
+2021-03-24 14:52:55,497 - nornir.core.task -    ERROR -      start() - Host 'sw2': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 12, in hello_world
+    task.host.pasword,
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 314, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'pasword'
+
+2021-03-24 14:52:55,497 - nornir.core.task -    ERROR -      start() - Host 'sw3': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 12, in hello_world
+    task.host.pasword,
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 314, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'pasword'
+
+2021-03-24 14:52:55,498 - nornir.core.task -    ERROR -      start() - Host 'sw4': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 12, in hello_world
+    task.host.pasword,
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 314, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'pasword'
+
+2021-03-24 14:53:36,336 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 15:19:02,387 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 15:19:02,388 - nornir.core.task -    ERROR -      start() - Host 'sw1': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 9, in hello_world
+    return (task.host['data'])
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 296, in __getitem__
+    return self.data[item]
+KeyError: 'data'
+
+2021-03-24 15:19:02,388 - nornir.core.task -    ERROR -      start() - Host 'sw2': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 9, in hello_world
+    return (task.host['data'])
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 296, in __getitem__
+    return self.data[item]
+KeyError: 'data'
+
+2021-03-24 15:19:02,389 - nornir.core.task -    ERROR -      start() - Host 'sw3': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 9, in hello_world
+    return (task.host['data'])
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 296, in __getitem__
+    return self.data[item]
+KeyError: 'data'
+
+2021-03-24 15:19:02,389 - nornir.core.task -    ERROR -      start() - Host 'sw4': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 9, in hello_world
+    return (task.host['data'])
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 296, in __getitem__
+    return self.data[item]
+KeyError: 'data'
+
+2021-03-24 15:21:23,424 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 15:21:23,425 - nornir.core.task -    ERROR -      start() - Host 'sw3': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 9, in hello_world
+    return (task.host['building'])
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 296, in __getitem__
+    return self.data[item]
+KeyError: 'building'
+
+2021-03-24 15:24:47,334 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 15:24:47,336 - nornir.core.task -    ERROR -      start() - Host 'sw1': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 9, in hello_world
+    return (task.host['groups'])
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 296, in __getitem__
+    return self.data[item]
+KeyError: 'groups'
+
+2021-03-24 15:24:47,337 - nornir.core.task -    ERROR -      start() - Host 'sw2': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 9, in hello_world
+    return (task.host['groups'])
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 296, in __getitem__
+    return self.data[item]
+KeyError: 'groups'
+
+2021-03-24 15:24:47,337 - nornir.core.task -    ERROR -      start() - Host 'sw3': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 9, in hello_world
+    return (task.host['groups'])
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 296, in __getitem__
+    return self.data[item]
+KeyError: 'groups'
+
+2021-03-24 15:24:47,337 - nornir.core.task -    ERROR -      start() - Host 'sw4': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 9, in hello_world
+    return (task.host['groups'])
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 296, in __getitem__
+    return self.data[item]
+KeyError: 'groups'
+
+2021-03-24 15:45:26,533 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 15:47:28,602 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 15:47:28,603 - nornir.core.task -    ERROR -      start() - Host 'sw1': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 9, in hello_world
+    return (task.host[0])#只能读取data下面的键名（data是一个字典，building和level是键名），不能写作task.host['data']，只能谢岑
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 296, in __getitem__
+    return self.data[item]
+KeyError: 0
+
+2021-03-24 15:47:28,603 - nornir.core.task -    ERROR -      start() - Host 'sw2': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 9, in hello_world
+    return (task.host[0])#只能读取data下面的键名（data是一个字典，building和level是键名），不能写作task.host['data']，只能谢岑
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 296, in __getitem__
+    return self.data[item]
+KeyError: 0
+
+2021-03-24 15:47:28,604 - nornir.core.task -    ERROR -      start() - Host 'sw3': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 9, in hello_world
+    return (task.host[0])#只能读取data下面的键名（data是一个字典，building和level是键名），不能写作task.host['data']，只能谢岑
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 296, in __getitem__
+    return self.data[item]
+KeyError: 0
+
+2021-03-24 15:47:28,604 - nornir.core.task -    ERROR -      start() - Host 'sw4': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 9, in hello_world
+    return (task.host[0])#只能读取data下面的键名（data是一个字典，building和level是键名），不能写作task.host['data']，只能谢岑
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 296, in __getitem__
+    return self.data[item]
+KeyError: 0
+
+2021-03-24 15:58:37,172 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 16:01:46,477 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 16:08:30,975 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 16:36:08,628 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 16:36:08,629 - nornir.core.task -    ERROR -      start() - Host 'sw1': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 11, in hello_world
+    task.host['buidling'])#也可以把task.host.data['building']写成task.host['building']
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 296, in __getitem__
+    return self.data[item]
+KeyError: 'buidling'
+
+2021-03-24 16:36:08,630 - nornir.core.task -    ERROR -      start() - Host 'sw2': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 11, in hello_world
+    task.host['buidling'])#也可以把task.host.data['building']写成task.host['building']
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 296, in __getitem__
+    return self.data[item]
+KeyError: 'buidling'
+
+2021-03-24 16:36:08,630 - nornir.core.task -    ERROR -      start() - Host 'sw3': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 11, in hello_world
+    task.host['buidling'])#也可以把task.host.data['building']写成task.host['building']
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 296, in __getitem__
+    return self.data[item]
+KeyError: 'buidling'
+
+2021-03-24 16:36:08,631 - nornir.core.task -    ERROR -      start() - Host 'sw4': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 11, in hello_world
+    task.host['buidling'])#也可以把task.host.data['building']写成task.host['building']
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 296, in __getitem__
+    return self.data[item]
+KeyError: 'buidling'
+
+2021-03-24 16:37:52,858 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 16:40:56,993 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 16:40:56,994 - nornir.core.task -    ERROR -      start() - Host 'sw1': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 12, in hello_world
+    task.host['test'])
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 296, in __getitem__
+    return self.data[item]
+KeyError: 'test'
+
+2021-03-24 16:40:56,995 - nornir.core.task -    ERROR -      start() - Host 'sw2': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 12, in hello_world
+    task.host['test'])
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 296, in __getitem__
+    return self.data[item]
+KeyError: 'test'
+
+2021-03-24 16:40:56,995 - nornir.core.task -    ERROR -      start() - Host 'sw3': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 12, in hello_world
+    task.host['test'])
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 296, in __getitem__
+    return self.data[item]
+KeyError: 'test'
+
+2021-03-24 16:40:56,996 - nornir.core.task -    ERROR -      start() - Host 'sw4': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 12, in hello_world
+    task.host['test'])
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 296, in __getitem__
+    return self.data[item]
+KeyError: 'test'
+
+2021-03-24 16:41:55,784 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 16:42:38,506 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 16:42:38,507 - nornir.core.task -    ERROR -      start() - Host 'sw1': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 12, in hello_world
+    task.host.test)
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 314, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'test'
+
+2021-03-24 16:42:38,507 - nornir.core.task -    ERROR -      start() - Host 'sw2': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 12, in hello_world
+    task.host.test)
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 314, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'test'
+
+2021-03-24 16:42:38,507 - nornir.core.task -    ERROR -      start() - Host 'sw3': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 12, in hello_world
+    task.host.test)
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 314, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'test'
+
+2021-03-24 16:42:38,508 - nornir.core.task -    ERROR -      start() - Host 'sw4': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 12, in hello_world
+    task.host.test)
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 314, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'test'
+
+2021-03-24 16:43:53,748 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 16:43:53,749 - nornir.core.task -    ERROR -      start() - Host 'sw1': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 10, in hello_world
+    task.host.data['building'],  #只能读取data下面的键名(building或者level),因为data是一个字典，不能写作task.host['data']，只能写成task.host.data
+KeyError: 'building'
+
+2021-03-24 16:43:53,750 - nornir.core.task -    ERROR -      start() - Host 'sw2': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 12, in hello_world
+    task.host.test)
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 314, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'test'
+
+2021-03-24 16:43:53,750 - nornir.core.task -    ERROR -      start() - Host 'sw3': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 12, in hello_world
+    task.host.test)
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 314, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'test'
+
+2021-03-24 16:43:53,751 - nornir.core.task -    ERROR -      start() - Host 'sw4': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 12, in hello_world
+    task.host.test)
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/inventory.py", line 314, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'test'
+
+2021-03-24 16:44:30,971 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 16:44:30,971 - nornir.core.task -    ERROR -      start() - Host 'sw1': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "test.py", line 10, in hello_world
+    task.host.data['building'],  #只能读取data下面的键名(building或者level),因为data是一个字典，不能写作task.host['data']，只能写成task.host.data
+KeyError: 'building'
+
+2021-03-24 20:34:23,778 -  nornir.core -     INFO -        run() - Running task 'get_prompt' with args {} on 4 hosts
+2021-03-24 20:34:28,829 -  nornir.core -     INFO -        run() - Running task 'send_configs' with args {'configs': ['interface loop99', 'description Nornir loopback']} on 4 hosts
+2021-03-24 20:34:29,767 -  nornir.core -     INFO -        run() - Running task 'send_command' with args {'command': 'wr mem'} on 4 hosts
+2021-03-24 20:54:07,826 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2021-03-24 21:05:54,107 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts

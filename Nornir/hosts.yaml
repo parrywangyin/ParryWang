@@ -23,7 +23,7 @@ sw3:
     groups:
         - cisco_group2
     data:
-        builiding: '2'
+        building: '2'
         level: '1'
 sw4:
     hostname: 192.168.2.14

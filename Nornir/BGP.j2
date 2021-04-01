@@ -1,0 +1,5 @@
+router bgp {{ host.asn }}
+neighbor {{ host.neighbor }} remote-as {{ host.remoteas }} 
+{% for n in host.networks %}
+network {{ n.net }} mask {{ n.mask }}
+{% endfor %}
